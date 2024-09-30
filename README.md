@@ -2,8 +2,11 @@
 database (csv): https://drive.google.com/drive/folders/1bBe16K1eIVSlYJeWBSbdFUQ9-i0wYCG2?usp=sharing  
 download and unzip this file, it is a csv file with the xauusd data from the year 2009 to the year 2023 represented in Japanese candlesticks with a 1-minute time horizon.
 
-HISTORICAL_DATA_XAUUSD_2023 is the reduced version 
-HISTORICAL_DATA_XAUUSD is the larger version and covers the period from 2009 to 2023.
+1- HISTORICAL_DATA_XAUUSD_2023 is the reduced version 
+
+2- HISTORICAL_DATA_XAUUSD is the larger version and covers the period from 2009 to 2023.
+
+ATTENTION: testing strategies in the small version takes 5 seconds but testing strategies in the large version takes 50 minutes. BE CAREFULL WITH THAT...
 
 this code is written in postgresql, the main function is called “main” and requires parameters such as take profit, stop loss, entry time, lotaje and order type to work. 
 
