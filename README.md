@@ -1,4 +1,7 @@
 # TradingSQL
+database (csv): https://drive.google.com/file/d/1hdsCRnjtB2mWe2eGRnVAHBN2WmgUWdjd/view?usp=sharing 
+download and unzip this file, it is a csv file with the xauusd data from the year 2009 to the year 2023 represented in Japanese candlesticks with a 1-minute time horizon.
+
 this code is written in postgresql, the main function is called “main” and requires parameters such as take profit, stop loss, entry time, lotaje and order type to work. 
 
 ATTENTION:
@@ -24,3 +27,6 @@ here the 0.2 refers to the lotaje (this does not modify results, it is just for 
 Clarifications:
 The time zone is in new york zone considering the time changes UTC-5 and UTC-4 both winter and summer when it changes in 1 hour. 
 the parameters are fixed, the same parameters are applied every time you operate. 
+
+
+
